@@ -12,12 +12,13 @@ const Hero = () => {
           </div>
 
           <div className="buttons">
-            <button>Latest projects</button>
-            <button>Contact me</button>
+            <button className="btn1">Latest projects</button>
+            <button className="btn2">Contact me</button>
           </div>
           <img src="./scroll.png" alt="scroll" />
         </div>
       </div>
+      <div className="slidingTextContainer">Developer Designer Creative</div>
       <div className="imageContainer">
         <img src="/hero.png" alt="profile image" />
       </div>

@@ -13,12 +13,35 @@
       gap: 40px;
       h2 {
         color: rebeccapurple;
-        font-size: 30px;
+        font-size: 20px;
         letter-spacing: 10px;
       }
       h1 {
         font-size: 70px;
       }
+      .buttons {
+        .btn1 {
+          padding: 10px;
+          margin: 5px;
+          border: 1px solid #fff;
+          color: #fff;
+          background-color: transparent;
+          border-radius: 6px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        .btn2 {
+          padding: 10px;
+          margin: 5px;
+          border: none;
+          color: #0c0c1d;
+          background-color: wheat;
+          border-radius: 6px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
       img {
         width: 50px;
       }
@@ -35,5 +58,12 @@
       border-radius: 50%;
       object-fit: cover;
     }
+  }
+  .slidingTextContainer {
+    position: absolute;
+    font-size: 30vh;
+    bottom: 0;
+    white-space: nowrap;
+    color: #ffffff09;
   }
 }
